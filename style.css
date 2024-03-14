@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(213, 212, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input1{
+    height: 35px;
+    width: 230px;
+    padding-left: 5px;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    gap: 15px;
+}
+
+.input-button{
+    display: flex;
+    gap: 10px;
+    margin-top: 100px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-button2{
+    display: flex;
+    flex-direction:column ;
+    gap: 15px;
+}
+
+.btn{
+    height: 35px;
+    width: 325px;
+    margin-top: 15px;
+    background-color: #FFC436;
+    color: white;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+
+}
+
+.input2{
+    height: 35px;
+    width: 80px;
+    padding-left: 5px;
+}
+
+.input3{
+    height: 35px;
+    width: 148px;
+    padding-left: 5px;
+}
+
+.add{
+    height: 35px;
+    width: 80px;
+    background-color: #16FF00;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.delete{
+    height: 35px;
+    width: 80px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.replace{
+    height: 35px;
+    width: 80px;
+    background-color: #279EFF;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.common{
+    display: flex;
+    flex-direction: column;
+}
+
+.common2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.li{
+    height: 35px;
+    width: 325px;
+    color: black;
+    background-color: white;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-left: 5px solid #373dd2;
+}
